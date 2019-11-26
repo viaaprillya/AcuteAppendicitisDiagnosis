@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tree"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Tree"
+            android:id="@+id/treetxt"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/tree"
+            android:layout_below="@id/treetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tree"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X1 = Nyeri Perut"
+            android:id="@+id/treeX1"
+            android:layout_below="@id/tree"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X2 = Skala Nyeri"
+            android:id="@+id/treeX2"
+            android:layout_below="@id/treeX1"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X3 = Mual"
+            android:id="@+id/treeX3"
+            android:layout_below="@id/treeX2"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X4 = Muntah"
+            android:id="@+id/treeX4"
+            android:layout_below="@id/treeX3"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X5 = Batuk"
+            android:id="@+id/treeX5"
+            android:layout_below="@id/treeX4"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X6 = Gangguan BAB"
+            android:id="@+id/treeX6"
+            android:layout_below="@id/treeX5"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X7 = Panas"
+            android:id="@+id/treeX7"
+            android:layout_below="@id/treeX6"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X8 = Nafsu Makan"
+            android:id="@+id/treeX8"
+            android:layout_below="@id/treeX7"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X9 = Sesak"
+            android:id="@+id/treeX9"
+            android:layout_below="@id/treeX8"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X10 = Nyeri Tekan"
+            android:id="@+id/treeX10"
+            android:layout_below="@id/treeX9"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X11 = Jumlah Leukosit"
+            android:id="@+id/treeX11"
+            android:layout_below="@id/treeX10"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G1 = Appendisitis Akut"
+            android:id="@+id/treeG1"
+            android:layout_below="@id/treeX11"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G2 = Bukan Appendisitis Akut"
+            android:id="@+id/treeG2"
+            android:layout_below="@id/treeG1"
+            android:textSize="20dp"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

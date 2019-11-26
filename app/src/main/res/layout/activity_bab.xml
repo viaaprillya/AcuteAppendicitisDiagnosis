@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".BabActivity">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart = "true"
+        android:id="@+id/babRadioGroup"
+        >
+
+        <ImageView
+            android:id="@+id/babImageView"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/bab" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="23dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bagaimana kondisi BAB anda?"
+            android:id="@+id/babTextView"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"
+            android:text="Normal"
+            android:textSize="23dp"
+            android:id="@+id/normalBabRb"
+            android:checked="false"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"
+            android:text="Sembelit"
+            android:textSize="23dp"
+            android:id="@+id/sembelitRb"
+            android:checked="false"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"
+            android:text="Mencret"
+            android:textSize="23dp"
+            android:id="@+id/mencretRb"
+            android:checked="false"
+            />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="NEXT"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:id="@+id/nextBabBtn"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>

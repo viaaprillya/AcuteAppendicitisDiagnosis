@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".NafsuMakanActivity">
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart = "true"
+        android:id="@+id/nafsuMakanRg"
+        >
+
+        <ImageView
+            android:id="@+id/makanImageView"
+            android:layout_marginTop="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/makan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="23dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bagaimana nafsu makan anda?"
+            android:id="@+id/nafsuMakanTextView"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"
+            android:text="Normal"
+            android:textSize="23dp"
+            android:id="@+id/normalNafsuRb"
+            android:checked="false"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"
+            android:text="Menurun"
+            android:textSize="23dp"
+            android:id="@+id/menurunRb"
+            android:checked="false"
+            />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="NEXT"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:id="@+id/nextNafsuBtn"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>

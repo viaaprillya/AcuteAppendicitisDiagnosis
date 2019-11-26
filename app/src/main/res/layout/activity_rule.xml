@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".Rule">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Rule"
+        android:id="@+id/treetxt"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 4/7/9 MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Tidak Nyeri MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 1 MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Bagian Lain DAN Skala Nyeri = 2/3/5/6/7/8 MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 8 DAN Panas = Ya MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 8 DAN Panas = Tidak DAN Mual = Ya MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 8 DAN Panas = Tidak DAN Mual = Tidak MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 5 DAN Mual = Tidak MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 5 DAN Mual = Ya DAN Nafsu Makan = Normal MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 5 DAN Mual = Ya DAN Nafsu Makan = Menurun MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 3 DAN Nyeri Tekan = Positif MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 3 DAN Nyeri Tekan = Negatif MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Bagian Lain DAN Skala Nyeri = 4 DAN Sesak = Ya MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Bagian Lain DAN Skala Nyeri = 4 DAN Sesak = Tidak MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Sembelit MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Mencret MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Normal DAN Mual = Tidak MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Normal DAN Mual = Ya DAN Nyeri Tekan = Positif MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Normal DAN Mual = Ya DAN Nyeri Tekan = Negatif DAN Leukosit = Abnormal MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Normal DAN Mual = Ya DAN Nyeri Tekan = Negatif DAN Leukosit = Normal DAN Muntah = Ya MAKA Bukan Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JIKA Nyeri Perut = Kanan Bawah DAN Skala Nyeri = 6 DAN BAB = Normal DAN Mual = Ya DAN Nyeri Tekan = Negatif DAN Leukosit = Normal DAN Muntah = Tidak MAKA Appendisitis Akut "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

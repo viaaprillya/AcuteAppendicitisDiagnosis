@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".MainMenuActivity">
+
+    <ImageView
+        android:id="@+id/nyeriperutImageView"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/gambar_sakit_perut" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TENTANG APLIKASI"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:id="@+id/tentangAplikasiBtn"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="INFO PENYAKIT"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:id="@+id/infoButton"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="DIAGNOSA"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:id="@+id/diagnosaButton"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/Treebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TREE"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Rulebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="RULE"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+</LinearLayout>

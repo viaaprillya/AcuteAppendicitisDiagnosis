@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".HasilActivity">
+
+    <ImageView
+        android:id="@+id/tdkSakitImageView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/tdk_sakit" />
+
+    <ImageView
+        android:id="@+id/sakitImageView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/sakit" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="HASIL"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/hasilButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_column="1"
+        />
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:text="HISTORY"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="350dp"
+        android:layout_below="@id/historyBtn"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="HOME"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
